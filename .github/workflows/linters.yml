@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+  
+>>>>>>> Stashed changes
 name: Linters
 
 on: pull_request

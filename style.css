@@ -1,3 +1,46 @@
+
+.headsection {
+  flex-direction: rows;
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+.logo{
+  position:center; 
+  }
+.button{
+  float:right
+}
+.socialbtn{
+  size: 100%;
+}
+img{
+  max-width: 100%;
+  height:auto;
+}
 h1 {
-  color: blue;
+  text-align:center;
+}
+body{
+  font-size: x-large;
+}
+/*CSS for textt for inflation in following*/
+
+/*Space section part*/
+.space {
+  float: left;
+  height: 250px;
+  width: 150px;
+}
+/*Footer Section style changed in following*/
+.container {
+  display: flex;
+  flex-direction:rows;
+}
+.t {
+  list-style-type: none;
+  font-size: 100%;
+}
+.footer-logo {
+  position: left;
 }
