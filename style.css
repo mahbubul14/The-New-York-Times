@@ -1,14 +1,21 @@
 
-.headsection {
-  flex-direction: rows;
-  flex-wrap: wrap;
+/*Head section*/
+.fixedheader{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: left;
+  align-items: stretch;
+  border-bottom: 1px solid silver;
   display: flex;
+  flex-direction: row;
+  flex-grow: 4;
 }
-.nav{
- display: flex;
-}
-ul li{
-  list-style: none;
+#logo {
+  width: 14em;
+  height: 2em;
 }
 .hamburger {
   width: 1em;
@@ -24,13 +31,22 @@ ul li{
 .button{
   float:right
 }
+/*body section*/
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li{
+  list-style: none;
+}
+
+
 .socialbtn{
   size: 100%;
 }
-img{
-  max-width: 100%;
-  height:auto;
-}
+
 h1 {
   text-align:center;
 }
@@ -49,7 +65,4 @@ body{
 .container {
   display: flex;
   flex-direction:rows;
-}
-.footer-logo {
-  position: left;
 }
