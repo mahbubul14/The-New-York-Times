@@ -1,6 +1,6 @@
 
 /*Head section*/
-.fixedheader{
+.fixedheader {
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -25,11 +25,11 @@
 .search {
   width: 1em;
 }
-.logo{
-  position:center; 
+.logo {
+  position: center; 
   }
-.button{
-  float:right
+.button {
+  float: right
 }
 /*body section*/
 .body {
@@ -38,19 +38,19 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-ul li{
+ul li {
   list-style: none;
 }
 
 
-.socialbtn{
+.socialbtn {
   size: 100%;
 }
 
 h1 {
-  text-align:center;
+  text-align: center;
 }
-body{
+body {
   font-size: x-large;
 }
 /*CSS for textt for inflation in following*/
@@ -64,5 +64,4 @@ body{
 /*Footer Section style changed in following*/
 .container {
   display: flex;
-  flex-direction:rows;
 }
