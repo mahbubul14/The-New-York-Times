@@ -1,67 +1,38 @@
-/* list item */
-nav > ul > li {
-  float: left;
-  margin-right: 2%;
-  list-style: none;
-}
-
-/* item 4 */
-.rightside{
-float: right;
-}
-
-#logo {
-  width: 14em;
-  height: 2em;
-}
-
-
-
-.search {
-  width: 1000em;
-}
-
-/* .fixedheader {
+/* neader section */
+nav{
   background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   justify-content: left;
-  align-items: stretch;
-  border-bottom: 1px solid silver;
-  display: flex;
-  flex-direction: row;
-  flex-grow: 4;
-} */
-
-
-
-/* body section
-body {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: x-large;
 }
 
+nav > ul > li {
+  float: left;
+  margin-right: 5%;
+}
 
+ul li{
+list-style-type: none;
+}
+
+button {
+  background-color: rgb(21, 113, 136);
+  color: #fff;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
 
 h1 {
   text-align: center;
 }
-
-/* CSS for textt for inflation in following */
-
-/* Space section part */
-/* .space {
-  float: left;
-  height: 250px;
-  width: 150px;
+.alan{
+  width: 50px;
+  height: auto;
 }
 
 /* Footer Section style changed in following */
-/* .container {
+ .container {
   display: flex;
-} */ */ */
+}
