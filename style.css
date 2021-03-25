@@ -1,5 +1,6 @@
 
-/*Head section*/
+/* Head section */
+
 .fixedheader {
   background-color: #fff;
   position: fixed;
@@ -34,10 +35,11 @@
   }
 
 .button {
-  float: right
+  float: right;
 }
 
-/*body section*/
+/* body section */
+
 .body {
   display: flex;
   flex-direction: row;
@@ -61,16 +63,18 @@ body {
   font-size: x-large;
 }
 
-/*CSS for textt for inflation in following*/
+/* CSS for textt for inflation in following */
 
-/*Space section part*/
+/* Space section part */
+
 .space {
   float: left;
   height: 250px;
   width: 150px;
 }
 
-/*Footer Section style changed in following*/
+/* Footer Section style changed in following */
+
 .container {
   display: flex;
 }
