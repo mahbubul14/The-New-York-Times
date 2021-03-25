@@ -4,7 +4,9 @@
   flex-wrap: wrap;
   position: fixed;
 }
-
+.topnav{
+  list-style: none;
+}
 .logo{
   position:center; 
   }
