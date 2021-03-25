@@ -30,11 +30,12 @@
 }
 
 /* body section */
-.body {
+body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: x-large;
 }
 
 ul li {
@@ -43,10 +44,6 @@ ul li {
 
 h1 {
   text-align: center;
-}
-
-body {
-  font-size: x-large;
 }
 
 /* CSS for textt for inflation in following */
