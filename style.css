@@ -29,10 +29,6 @@
   width: 1em;
 }
 
-.button {
-  float: right;
-}
-
 /* body section */
 .body {
   display: flex;
