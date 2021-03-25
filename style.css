@@ -2,10 +2,21 @@
 .headsection {
   flex-direction: rows;
   flex-wrap: wrap;
-  position: fixed;
+  display: flex;
 }
-.topnav{
+.nav{
+ display: flex;
+}
+ul li{
   list-style: none;
+}
+.hamburger {
+  width: 1em;
+  height: 1em;
+  margin: 0 1em;
+}
+.search {
+  width: 1em;
 }
 .logo{
   position:center; 
@@ -38,10 +49,6 @@ body{
 .container {
   display: flex;
   flex-direction:rows;
-}
-.t {
-  list-style-type: none;
-  font-size: 100%;
 }
 .footer-logo {
   position: left;
