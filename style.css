@@ -13,24 +13,30 @@
   flex-direction: row;
   flex-grow: 4;
 }
+
 #logo {
   width: 14em;
   height: 2em;
 }
+
 .hamburger {
   width: 1em;
   height: 1em;
   margin: 0 1em;
 }
+
 .search {
   width: 1em;
 }
+
 .logo {
   position: center; 
   }
+
 .button {
   float: right
 }
+
 /*body section*/
 .body {
   display: flex;
@@ -38,10 +44,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 ul li {
   list-style: none;
 }
-
 
 .socialbtn {
   size: 100%;
@@ -50,9 +56,11 @@ ul li {
 h1 {
   text-align: center;
 }
+
 body {
   font-size: x-large;
 }
+
 /*CSS for textt for inflation in following*/
 
 /*Space section part*/
@@ -61,7 +69,9 @@ body {
   height: 250px;
   width: 150px;
 }
+
 /*Footer Section style changed in following*/
 .container {
   display: flex;
 }
+
