@@ -1,6 +1,5 @@
 
 /* Head section */
-
 .fixedheader {
   background-color: #fff;
   position: fixed;
@@ -30,8 +29,8 @@
   width: 1em;
 }
 
-.logo {
-  position: center; 
+.timeslogo {
+  position: center;
   }
 
 .button {
@@ -39,7 +38,6 @@
 }
 
 /* body section */
-
 .body {
   display: flex;
   flex-direction: row;
@@ -49,10 +47,6 @@
 
 ul li {
   list-style: none;
-}
-
-.socialbtn {
-  size: 100%;
 }
 
 h1 {
@@ -66,7 +60,6 @@ body {
 /* CSS for textt for inflation in following */
 
 /* Space section part */
-
 .space {
   float: left;
   height: 250px;
@@ -74,8 +67,6 @@ body {
 }
 
 /* Footer Section style changed in following */
-
 .container {
   display: flex;
 }
-
