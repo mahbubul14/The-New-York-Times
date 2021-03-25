@@ -1,6 +1,27 @@
+/* list item */
+nav > ul > li {
+  float: left;
+  margin-right: 2%;
+  list-style: none;
+}
 
-/* Head section */
-.fixedheader {
+/* item 4 */
+.rightside{
+float: right;
+}
+
+#logo {
+  width: 14em;
+  height: 2em;
+}
+
+
+
+.search {
+  width: 1000em;
+}
+
+/* .fixedheader {
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -12,24 +33,11 @@
   display: flex;
   flex-direction: row;
   flex-grow: 4;
-}
+} */
 
-#logo {
-  width: 14em;
-  height: 2em;
-}
 
-.hamburger {
-  width: 1em;
-  height: 1em;
-  margin: 0 1em;
-}
 
-.search {
-  width: 1em;
-}
-
-/* body section */
+/* body section
 body {
   display: flex;
   flex-direction: row;
@@ -38,9 +46,7 @@ body {
   font-size: x-large;
 }
 
-ul li {
-  list-style: none;
-}
+
 
 h1 {
   text-align: center;
@@ -49,13 +55,13 @@ h1 {
 /* CSS for textt for inflation in following */
 
 /* Space section part */
-.space {
+/* .space {
   float: left;
   height: 250px;
   width: 150px;
 }
 
 /* Footer Section style changed in following */
-.container {
+/* .container {
   display: flex;
-}
+} */ */ */
