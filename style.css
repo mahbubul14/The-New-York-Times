@@ -9,6 +9,14 @@ nav {
   line-height: 20px;
   text-decoration: none;
   padding: 0%;
+  border-bottom: 1px solid #ccc;
+}
+.timeslogo{
+width: 295px;
+Height: auto;
+}
+.button{
+  margin-left: 400px;
 }
 
 ul li {
@@ -30,7 +38,6 @@ button {
 h1 {
   text-align: left 30;
   padding: 60px 0px 0px 80px;
-  margin: 1;
   width: 500px;
 }
 
@@ -46,17 +53,17 @@ h1 {
 }
 
 .alan {
-max-width: 100%;
+  max-width: 100%;
 }
 
-.inflation-img{
+.inflation-img {
   max-width: 100%;
 }
 
 /* Footer Section style changed in following */
  .container {
   display: flex;
-  font-size: 140%;
+  font-size: 120%;
 }
 .bold {
   font-weight: bolder;
