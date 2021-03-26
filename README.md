@@ -2,7 +2,7 @@
 
 # New York Times Article clone
 
-> The practice project is an article from a new york times website.
+> The project is a clone of the new york times article page.
 
 ![screenshot](./image/article.PNG)
 
