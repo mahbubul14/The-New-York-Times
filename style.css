@@ -11,13 +11,13 @@ nav {
   padding: 0%;
 }
 
+ul li {
+  list-style-type: none;
+  }
+
 nav > ul > li {
   float: left;
   margin-right: 5%;
-}
-
-ul li {
-list-style-type: none;
 }
 
 button {
