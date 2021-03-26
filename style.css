@@ -1,5 +1,5 @@
 /* neader section */
-nav{
+nav {
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -16,7 +16,7 @@ nav > ul > li {
   margin-right: 5%;
 }
 
-ul li{
+ul li {
 list-style-type: none;
 }
 
