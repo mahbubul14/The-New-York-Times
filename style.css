@@ -6,6 +6,9 @@ nav{
   left: 0;
   right: 0;
   justify-content: left;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 0%;
 }
 
 nav > ul > li {
@@ -25,14 +28,40 @@ button {
 }
 
 h1 {
-  text-align: center;
+  text-align: left 30;
+  padding: 60px 0px 0px 80px;
+  margin: 1;
+  width: 500px;
 }
+
+.social-media{
+  padding: 10px 10px 30px 200px;
+}
+
+.bodysection{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 130%;
+}
+
 .alan{
-  width: 50px;
-  height: auto;
+max-width: 100%;
+}
+
+.inflation-img{
+  max-width: 100%;
 }
 
 /* Footer Section style changed in following */
  .container {
   display: flex;
+  font-size: 140%;
+}
+.bold {
+  font-weight: bolder;
+}
+
+.t {
+  padding: 3%;
 }
