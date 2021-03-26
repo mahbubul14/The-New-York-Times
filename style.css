@@ -1,4 +1,4 @@
-/* neader section */
+/* header section */
 nav {
   background-color: #fff;
   position: fixed;
@@ -68,14 +68,19 @@ h1 {
 }
 
 /* Footer Section style changed in following */
- .container {
-  display: flex;
-  font-size: 120%;
+
+.container {
+  width: 150px;
+  font-size: 80px;
+  line-height: 16px;
+  font-weight: 500;
 }
+
 .bold {
   font-weight: bolder;
 }
 
 .t {
-  padding: 3%;
+  padding: 0%;
+  flex-wrap: wrap;
 }

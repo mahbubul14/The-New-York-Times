@@ -4,7 +4,7 @@
 
 > The project is a clone of the new york times article page.
 
-![screenshot](./image/article.PNG)
+![screenshot](./image/narticle.PNG)
 
 This page(in the project) is actually built with some basic tag with html and css.
 
