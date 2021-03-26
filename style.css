@@ -36,6 +36,7 @@ button {
 }
 
 h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: left 30;
   padding: 60px 0px 0px 80px;
   width: 500px;
@@ -57,7 +58,13 @@ h1 {
 }
 
 .inflation-img {
-  max-width: 100%;
+  width: 715px;
+  height: auto;
+}
+.telescopingimg{
+  width: 715px;
+  height: auto;
+}
 }
 
 /* Footer Section style changed in following */
