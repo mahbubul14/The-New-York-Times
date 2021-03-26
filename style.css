@@ -23,7 +23,7 @@ nav {
 
 ul li {
   list-style-type: none;
-  }
+}
 
 nav > ul > li {
   float: left;
@@ -38,10 +38,10 @@ button {
 }
 
 h1 {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  text-align: left 30;
-  padding: 60px 0px 0px 80px;
-  width: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding: 60px 1px 1px 80px;
+  width: 600px;
 }
 
 .social-media {
@@ -72,8 +72,7 @@ h1 {
 /* Footer Section style changed in following */
 
 .container {
-display: flex;
-size: 120px;
+  display: flex;
 }
 
 .bold {
