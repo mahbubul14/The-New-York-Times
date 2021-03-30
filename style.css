@@ -1,85 +1,238 @@
-/* header section */
-nav {
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  justify-content: left;
-  line-height: 10px;
-  text-decoration: none;
-  padding: 0%;
-  border-bottom: 1px solid #ccc;
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* fixed header section */
+header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-weight: bolder;
+    font-family: helvetica, arial, sans-serif;
+    font-size: smaller;
 }
 
-.timeslogo {
-  width: 275px;
-  height: auto;
+nav ul li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.noline{
+    text-decoration: none;
+    color:black;
 }
 
-.button {
-  margin-left: 200px;
+.logo{
+    width: 17%;
+    height: 17%;
 }
-
-ul li {
-  list-style-type: none;
-}
-
-nav > ul > li {
-  float: left;
-  margin-right: 5%;
-}
-
 button {
-  background-color: rgb(21, 113, 136);
-  color: #fff;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
+    margin-right: .3rem;
+    font-size: .71rem;
+    /* background-color: #326891; */
+    background-color: #567B95;
+    color: white;
+    padding: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .2rem;
+    border: transparent;
+    /* #5678B95 */
+}
+nav{
+    margin-right: 1rem;
+}
+.btn2 {
+    margin-right: 10rem;
 }
 
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: left;
-  padding: 60px 1px 1px 80px;
-  width: 600px;
+/* h1, banner img section */
+
+h1{
+    font-size: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    font-family: georgia, "times new roman", times, serif;
+    font-weight: 700;
+    max-width: 600px;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+.social-media{
+    width: 14px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-bottom: 0px;
+    gap: 20px;
+}
+.h1img{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 10%;
+    max-width: 75%;
+    height: auto;
 }
 
-.social-media {
-  padding: 10px 10px 30px 200px;
+.imgtext {
+    margin-top: .5rem;
+    margin-left: 15%;
+    margin-right: 30%;
+    color: rgb(102, 101, 101);
+}
+.writter{
+    padding-right: 27%;
+    padding-left: 27%;
+    margin-top: 4%;
+    margin-bottom: .9%;
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+}
+.linkblack{
+    color: black
+}
+.date{
+    padding-right: 27%;
+    padding-left: 27%;
+    padding-bottom: 35%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: .8rem;
 }
 
-.bodysection {
-  margin-right: 20%;
-  margin-top: 5%;
-  font-size: 130%;
-  margin-left: 20%;
+/* content section css */
+
+.content {
+    margin-top: 1%;
+    margin-bottom: 1rem;   
+    padding-right: 27%;
+    padding-left: 27%;
+    font-size: 20px;
+    font-family: georgia, "times new roman", times, serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    max-width: 90rem;
+    font-family: georgia, "times new roman", times, serif;
+}
+#p1{
+    margin-top: 4%;
+}
+#break{
+    font-size: 1rem; 
+    font-weight: bolder;
+    padding-top: 80rem;
+    padding-left: 38%;
+}
+.blue {
+    color: rgb(50, 104, 145);
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 41%;
+}
+.sky{
+    color: rgb(50, 104, 145);
+}
+.caption-text{
+    font-size: .9rem;
+    row-gap: .2rem;
+    font-weight: 500;
+    color:rgb(88, 83, 83);
+    line-height: 0.1;
+}
+/* inflation section css */
+
+.inflationimg{
+    display: inline-block;
+    margin-top: 2em;
+    max-width: 250px;
+    max-height: 170px;
+    margin-left: 20px;
+}
+.inflation-description{
+    color:rgb(102, 101, 101)
+}
+.inflationimg-part2{
+    display: inline-block;
+    margin-top: 2em;
+    max-width: 250px;
+    max-height: 170px;
+    margin-left: 20px;
+}
+.inflation-container{
+   margin-left: 7%;
+   margin-right: 7%;
+   max-width: 1200px;
+}
+.inflation-content{
+    display: inline-block;
+    max-width: 15rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0;
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: helvetica, arial, sans-serif;
+    color: rgb(88, 83, 83);
+}
+.writter-of-inflation{
+    margin-top: 6%;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    font-family: helvetica,sans-serif;
+    font-weight: 80;
+}
+.telescope-img{
+    max-width: 100%;
+}
+.small{
+    font-size: .8rem;
+    color: rgb(102, 101, 101);
+    line-height: 0;
+}
+/* article end */
+
+.comments-btn{
+    margin-right: 5%;
+    margin-left: 0%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+.social-media-bottom{
+    display: flex;
+    width: 14px;
+    margin-top: 8px;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    gap: 20px;
+}
+.bottom-social{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 27%;
+    margin-right: 35%;
+    margin-bottom: 0px;
 }
 
-.alan {
-  max-width: 100%;
-}
 
-.inflation-img {
-  width: 715px;
-  height: auto;
-}
-
-.telescopingimg {
-  width: 715px;
-  height: auto;
-}
-
-/* Footer Section style changed in following */
-
-.container {
-  display: flex;
-}
-
-.bold {
-  font-weight: bolder;
-}
-
-.t {
-  padding: 30px;
-  font-size: large;
-}
+/* aside ul li{
+    list-style-type: none;
+    word-wrap: 100px;
+} */
+/* .editorimg{
+    width: 100px;
+    padding: 0%;
+} */
+/* footer fixed section */
+/* footer{
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+} */
