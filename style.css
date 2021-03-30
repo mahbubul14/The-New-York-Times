@@ -216,20 +216,30 @@ h1{
     margin-right: 35%;
     margin-bottom: 0px;
 }
-/* newsletter section for css */
-.newsletter{
-    border: 1px solid silver;
-    box-sizing: border-box;
-    float: left;
-    margin: 2% 2% 0% 2%;
-    padding: 1em;
-    width: 20%;
-}
 .bold{
     font-weight: bolder;
 }
+/* newsletter section for css */
+/* .newsletter{
+    grid-row: 1/2;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid silver;
+    background-color: red;
+    margin: 1% 1% 0% 1%;
+    padding: 1em;
+    width: 25%;
+}
+.newsletter img{
+    width: 20%;
+}
+.newsletter-text{
+    width: 30%;
+} */
+/* styling the newsletter articles */
+
+
 /* popular section css */
-.popular{
+/* .popular{
     margin-left: 1%;
     padding-left: 10%;
 }
@@ -240,11 +250,18 @@ ul li{
 ul li a{
     text-decoration: none;
 }
-
-
 .container{
     margin-top: 8%;
 }
+/* more space section css */
+/* .more-space{
+display: inline-flex;
+margin-top: 3%;
+}
+.more-space img{
+    max-width: 60%;
+} */
+
 /* .newsletter-text{
     max-width: 60%;
 } */
