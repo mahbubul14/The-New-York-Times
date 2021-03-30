@@ -216,8 +216,38 @@ h1{
     margin-right: 35%;
     margin-bottom: 0px;
 }
+/* newsletter section for css */
+.newsletter{
+    border: 1px solid silver;
+    box-sizing: border-box;
+    float: left;
+    margin: 2% 2% 0% 2%;
+    padding: 1em;
+    width: 20%;
+}
+.bold{
+    font-weight: bolder;
+}
+/* popular section css */
+.popular{
+    margin-left: 1%;
+    padding-left: 10%;
+}
+ul li{
+    list-style-type: none;
+    margin-top: .2%;   
+}
+ul li a{
+    text-decoration: none;
+}
 
 
+.container{
+    margin-top: 8%;
+}
+/* .newsletter-text{
+    max-width: 60%;
+} */
 /* aside ul li{
     list-style-type: none;
     word-wrap: 100px;
