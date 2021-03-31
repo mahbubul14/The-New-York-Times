@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
     font-family: helvetica, arial, sans-serif;
 }
 /* fixed header section */
-header{
+header {
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -16,19 +16,21 @@ header{
     font-size: smaller;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin-left: 1.5rem;
 }
-.noline{
+
+.noline {
     text-decoration: none;
     color:black;
 }
 
-.logo{
+.logo {
     width: 17%;
     height: 17%;
 }
+
 button {
     margin-right: .3rem;
     font-size: .71rem;
@@ -42,16 +44,15 @@ button {
     border: transparent;
     /* #5678B95 */
 }
-nav{
+nav {
     margin-right: 1rem;
 }
+
 .btn2 {
     margin-right: 10rem;
 }
-
 /* h1, banner img section */
-
-h1{
+h1 {
     font-size: 2rem;
     padding-top: 6rem;
     padding-bottom: 1rem;
@@ -61,7 +62,8 @@ h1{
     margin-left: 30%;
     margin-right: 25%;
 }
-.social-media{
+
+.social-media {
     width: 14px;
     display: flex;
     margin-top: 30px;
@@ -69,7 +71,8 @@ h1{
     margin-bottom: 0px;
     gap: 20px;
 }
-.h1img{
+
+.h1img {
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 10%;
@@ -83,7 +86,8 @@ h1{
     margin-right: 30%;
     color: rgb(102, 101, 101);
 }
-.writter{
+
+.writter {
     padding-right: 27%;
     padding-left: 27%;
     margin-top: 4%;
@@ -92,19 +96,19 @@ h1{
     font-weight: 700;
     font-size: 17px;
 }
-.linkblack{
+
+.linkblack {
     color: black
 }
-.date{
+
+.date {
     padding-right: 27%;
     padding-left: 27%;
     padding-bottom: 35%;
     font-family: helvetica, arial, sans-serif;
     font-size: .8rem;
 }
-
 /* content section css */
-
 .content {
     margin-top: 1%;
     margin-bottom: 1rem;   
@@ -117,32 +121,38 @@ h1{
     max-width: 90rem;
     font-family: georgia, "times new roman", times, serif;
 }
-#p1{
+
+#p1 {
     margin-top: 4%;
     font-size: 1.09rem;
 }
-article p button{
+
+article p button {
     background-color: white;
     margin-left: 30%;
     color:black;
     border: 1px solid black;
 }
-#break{
+
+#break {
     font-size: 1rem; 
     font-weight: bolder;
     padding-top: 80rem;
     padding-left: 38%;
 }
+
 .blue {
     color: rgb(50, 104, 145);
     font-weight: bold;
     font-size: 15px;
     padding-left: 41%;
 }
-.sky{
+
+.sky {
     color: rgb(50, 104, 145);
 }
-.caption-text{
+
+.caption-text {
     font-size: .9rem;
     row-gap: .2rem;
     font-weight: 500;
@@ -150,7 +160,7 @@ article p button{
     line-height: 0.1;
 }
 /* rightside editors picks section */
-.ediors-picks-banner-container{
+.ediors-picks-banner-container {
     width: 20%;
     margin-top: 2%;
     float: right;
@@ -158,50 +168,59 @@ article p button{
     justify-content: flex-end;
     flex-direction: column;
 }
-.ediors-picks-banner{  
+
+.ediors-picks-banner {  
     width: 60%;
 }
-.ediors-picks-banner img{
+
+.ediors-picks-banner img {
     width: 50%;
     float: left;
     margin-bottom: 2%;
 }
-.ediors-picks-banner a p{
+
+.ediors-picks-banner a p {
     width: 70%;
     margin-left: 10%;
     font-size: .85rem;
     margin-left: 55%;
     margin-top: 5%;
 }
-.ediors-picks-banner a{
+
+.ediors-picks-banner a {
     text-decoration: none;
     color: black;
 }
+
 /* inflation section css */
 
-.inflationimg{
+.inflationimg {
     display: inline-block;
     margin-top: 2em;
     max-width: 250px;
     max-height: 170px;
     margin-left: 20px;
 }
-.inflation-description{
+
+.inflation-description {
     color:rgb(102, 101, 101)
 }
-.inflationimg-part2{
+
+.inflationimg-part2 {
     display: inline-block;
     margin-top: 2em;
     max-width: 250px;
     max-height: 170px;
     margin-left: 20px;
 }
-.inflation-container{
+
+.inflation-container {
    margin-left: 7%;
    margin-right: 7%;
    max-width: 1200px;
 }
-.inflation-content{
+
+.inflation-content {
     display: inline-block;
     max-width: 15rem;
     flex-direction: column;
@@ -212,24 +231,26 @@ article p button{
     font-family: helvetica, arial, sans-serif;
     color: rgb(88, 83, 83);
 }
-.writter-of-inflation{
+
+.writter-of-inflation {
     margin-top: 6%;
     margin-left: 9%;
     margin-bottom: 2%;
     font-family: helvetica,sans-serif;
     font-weight: 80;
 }
-.telescope-img{
+
+.telescope-img {
     max-width: 100%;
 }
-.small{
+
+.small {
     font-size: .8rem;
     color: rgb(102, 101, 101);
     line-height: 0;
 }
 /* article end */
-
-.comments-btn{
+.comments-btn {
     margin-right: 5%;
     margin-left: 0%;
     padding-right: 20%;
@@ -237,7 +258,8 @@ article p button{
     padding-bottom: 0%;
     padding-top: 0%;
 }
-.social-media-bottom{
+
+.social-media-bottom {
     display: flex;
     width: 14px;
     margin-top: 8px;
@@ -245,68 +267,77 @@ article p button{
     margin-bottom: 0px;
     gap: 20px;
 }
-.bottom-social{
+
+.bottom-social {
     display: flex;
     margin-top: 10px;
     margin-left: 27%;
     margin-right: 35%;
     margin-bottom: 0px;
 }
-.bold{
+
+.bold {
     font-weight: bolder;
 }
 /* newsletter section css */
-.suggested-header{
+.suggested-header {
     margin-left: 2%;
 }
-.newsletter{
+
+.newsletter {
     width: 24%;
     border: 1px solid silver;
     margin-left: .9%;
 }
-.newsletter p{
+
+.newsletter p {
     width: 100%;
 }
-.newsletter a img{
+.newsletter a img {
     width: 40%;
 }
 
-.newsletterflex{
+.newsletterflex {
     display: flex;
     justify-content: flex-start;
     margin-top: 2%;
     margin-left: 1%;
 }
 /* most popular part */
-.popular li a{
+.popular li a {
    text-decoration: none;
    color: black;
 
 }
-.popular-part{
+
+.popular-part {
     margin-left: 3%;
 }
+
 /* more in space section css */
-.space-header{
+.space-header {
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
     
 }
-.more-space-section1{
+
+.more-space-section1 {
     display: flex;
     justify-content: flex-start;
     width: 73%;
     margin-left: 2%;
 }
-.more-space-section2{
+
+.more-space-section2 {
     margin-top: 4%;
     display: flex;
     justify-content: flex-start;
     width: 75%;
     margin-left: 2%;
 }
-.more-space{
+
+.more-space {
     margin-right: -11%;
     width: 45%
 }
@@ -314,10 +345,12 @@ article p button{
 .more-space a img {
     width: 71%;
 }
+
 .more-space a {
     text-decoration: none;
 }
-.more-space p{
+
+.more-space p {
     width: 72%;
     text-decoration: none;
     font-size: large;
@@ -325,27 +358,29 @@ article p button{
     color: black;
 }
 /* Editors’ Picks section css */
-.editors-header{
+.editors-header {
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.editors-picks-section{
+
+.editors-picks-section {
     display: flex;
     justify-content: flex-start;
     width: 74%;
     margin-left: 2%;
 }
  
-.editors-picks a img{
+.editors-picks a img {
     width: 97%
 }
 
-.editors-picks a{
+.editors-picks a {
     text-decoration: none;
     margin-top: 8%;
 }
-.editors-picks p{
+
+.editors-picks p {
     width: 82%;
     text-decoration: none;
     font-size: large;
@@ -353,30 +388,33 @@ article p button{
     color: black;
 }
 /* Footer section css */
-.footer-logo{
+.footer-logo {
     width: 22%;
     margin-left: -2.1%;
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-left: 2%;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-.table{
+.table {
 width: 17%;
 font-size: .9rem;
 }
-.table li{
+
+.table li {
     margin-top: .5rem;
 }
 /* footer banner css */
-.footer-banner{
+.footer-banner {
     display: flex;
     justify-content: flex-start;
     width: 90%;
