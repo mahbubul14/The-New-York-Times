@@ -19,8 +19,8 @@ header {
 }
 
 ul li {
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
 nav ul li {
   display: inline-block;
@@ -137,7 +137,7 @@ h1 {
 article p button {
   background-color: white;
   margin-left: 30%;
-  color:black;
+  color: black;
   border: 1px solid black;
 }
 
@@ -163,7 +163,7 @@ article p button {
   font-size: .9rem;
   row-gap: .2rem;
   font-weight: 500;
-  color:rgb(88, 83, 83);
+  color: rgb(88, 83, 83);
   line-height: 0.1;
 }
 
@@ -212,7 +212,7 @@ article p button {
 }
 
 .inflation-description {
-  color:rgb(102, 101, 101)
+  color: rgb(102, 101, 101)
 }
 
 .inflationimg-part2 {
@@ -224,9 +224,9 @@ article p button {
 }
 
 .inflation-container {
-   margin-left: 7%;
-   margin-right: 7%;
-   max-width: 1200px;
+  margin-left: 7%;
+  margin-right: 7%;
+  max-width: 1200px;
 }
 
 .inflation-content {
@@ -470,6 +470,6 @@ article p button {
 }
 
 .footer-banner li {
-    justify-content: space-between;
-    margin-left: 1%;
+  justify-content: space-between;
+  margin-left: 1%;
 }
