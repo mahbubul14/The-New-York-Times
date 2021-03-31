@@ -51,6 +51,7 @@ nav {
 .btn2 {
   margin-right: 10rem;
 }
+
 /* h1, banner img section */
 h1 {
   font-size: 2rem;
@@ -109,6 +110,7 @@ h1 {
   font-family: helvetica, arial, sans-serif;
   font-size: .8rem;
 }
+
 /* content section css */
 .content {
   margin-top: 1%;
@@ -160,6 +162,7 @@ article p button {
   color:rgb(88, 83, 83);
   line-height: 0.1;
 }
+
 /* rightside editors picks section */
 .ediors-picks-banner-container {
   width: 20%;
@@ -250,6 +253,7 @@ article p button {
   color: rgb(102, 101, 101);
   line-height: 0;
 }
+
 /* article end */
 .comments-btn {
   margin-right: 5%;
@@ -280,6 +284,7 @@ article p button {
 .bold {
   font-weight: bolder;
 }
+
 /* newsletter section css */
 .suggested-header {
   margin-left: 2%;
@@ -303,7 +308,6 @@ article p button {
   color:gray;
 }
 
-
 .newsletter a img {
   width: 40%;
 }
@@ -322,6 +326,7 @@ article p button {
   margin-top: 2%;
   margin-left: 1%;
 }
+
 /* most popular part */
 .popular li a {
   text-decoration: none;
@@ -337,6 +342,7 @@ article p button {
   width: 95%;
   border-top: .01px solid rgb(224, 213, 213);
 }
+
 /* more in space section css */
 .space-header {
   margin-left: 2%;
@@ -379,6 +385,7 @@ article p button {
   margin-bottom: 2%;
   color: black;
 }
+
 /* Editors’ Picks section css */
 .editors-header {
   margin-left: 2%;
@@ -409,6 +416,7 @@ article p button {
   margin-bottom: 2%;
   color: black;
 }
+
 /* Footer section css */
 .footer-logo {
   width: 22%;
