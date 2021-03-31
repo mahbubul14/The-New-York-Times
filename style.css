@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    font-family: helvetica, arial, sans-serif;
 }
 /* fixed header section */
 header{
@@ -224,12 +225,12 @@ h1{
     margin-left: 2%;
 }
 .newsletter{
-    width: 22%;
+    width: 24%;
     border: 1px solid silver;
     margin-left: .9%;
 }
-.newsletter-text{
-    width: 80%;
+.newsletter p{
+    width: 100%;
 }
 .newsletter a img{
     width: 40%;
@@ -241,6 +242,15 @@ h1{
     margin-top: 2%;
     margin-left: 1%;
 }
+/* most popular part */
+.popular li a{
+   text-decoration: none;
+   color: black;
+
+}
+.popular-part{
+    margin-left: 3%;
+}
 /* more in space section css */
 .space-header{
     margin-left: 2%;
@@ -251,22 +261,23 @@ h1{
 .more-space-section1{
     display: flex;
     justify-content: flex-start;
-    width: 66%;
+    width: 73%;
     margin-left: 2%;
 }
 .more-space-section2{
+    margin-top: 4%;
     display: flex;
     justify-content: flex-start;
     width: 75%;
     margin-left: 2%;
 }
 .more-space{
-    margin-right: -7%;
+    margin-right: -11%;
     width: 45%
 }
 
 .more-space a img {
-    width: 70%;
+    width: 71%;
 }
 .more-space a {
     text-decoration: none;
@@ -278,48 +289,65 @@ h1{
     margin-bottom: 2%;
     color: black;
 }
+/* Editors’ Picks section css */
+.editors-header{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.editors-picks-section{
+    display: flex;
+    justify-content: flex-start;
+    width: 74%;
+    margin-left: 2%;
+}
+ 
+.editors-picks a img{
+    width: 97%
+}
 
-/* .popular{
-    margin-left: 1%;
-    padding-left: 10%;
+.editors-picks a{
+    text-decoration: none;
+    margin-top: 8%;
+}
+.editors-picks p{
+    width: 82%;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 2%;
+    color: black;
+}
+/* Footer section css */
+.footer-logo{
+    width: 22%;
+    margin-left: -2.1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.footer-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 2%;
 }
 ul li{
     list-style-type: none;
-    margin-top: .2%;   
 }
-ul li a{
-    text-decoration: none;
+.table{
+width: 17%;
+font-size: .9rem;
 }
-.container{
-    margin-top: 8%;
+.table li{
+    margin-top: .5rem;
 }
-/* more space section css */
-/* .more-space{
-display: inline-flex;
-margin-top: 3%;
+/* footer banner css */
+.footer-banner{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 2%;
+    font-size: .7rem;
+    color: slategray;
+    justify-content: space-between;
+    margin-top: 1.6%;
 }
-.more-space img{
-    max-width: 60%;
-} */
-
-/* .newsletter-text{
-    max-width: 60%;
-} */
-/* aside ul li{
-    list-style-type: none;
-    word-wrap: 100px;
-} */
-/* .editorimg{
-    width: 100px;
-    padding: 0%;
-} */
-/* footer fixed section */
-/* footer{
-    text-align: center;
-    background-color: teal;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-    position:fixed;
-    z-index: 1;
-} */
