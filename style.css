@@ -189,11 +189,11 @@ article p button {
 }
 
 .newsletter p {
-    width: 100%;
-    line-height: 130%;
-    font-size: .97rem;
-    margin-bottom: 1%;
-    margin-top: 2%;
+  width: 100%;
+  line-height: 130%;
+  font-size: .97rem;
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 .ediors-picks-banner a p {
@@ -306,14 +306,6 @@ article p button {
   margin-left: .9%;
 }
 
-.newsletter p {
-  width: 100%;
-  line-height: 130%;
-  font-size: .97rem;
-  margin-bottom: 1%;
-  margin-top: 2%;
-}
-
 .smaller {
   color: gray;
 }
@@ -338,6 +330,10 @@ article p button {
 }
 
 /* most popular part */
+
+.more-space a {
+    text-decoration: none;
+  }
 
 .popular li a {
   text-decoration: none;
@@ -384,10 +380,6 @@ article p button {
 
 .more-space a img {
   width: 71%;
-}
-
-.more-space a {
-  text-decoration: none;
 }
 
 .more-space p {
