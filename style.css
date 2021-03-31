@@ -188,9 +188,16 @@ article p button {
   margin-bottom: 2%;
 }
 
+.newsletter p {
+  width: 100%;
+  line-height: 130%;
+  font-size: .97rem;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
 .ediors-picks-banner a p {
   width: 70%;
-  margin-left: 10%;
   font-size: .85rem;
   margin-left: 55%;
   margin-top: 5%;
@@ -212,7 +219,7 @@ article p button {
 }
 
 .inflation-description {
-  color: rgb(102, 101, 101)
+  color: rgb(102, 101, 101);
 }
 
 .inflationimg-part2 {
@@ -245,7 +252,6 @@ article p button {
   margin-top: 6%;
   margin-left: 9%;
   margin-bottom: 2%;
-  font-family: helvetica,sans-serif;
   font-weight: 80;
 }
 
