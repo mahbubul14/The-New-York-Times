@@ -25,7 +25,7 @@ nav ul li {
 
 .noline {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .logo {
@@ -36,7 +36,7 @@ nav ul li {
 button {
   margin-right: .3rem;
   font-size: .71rem;
-  background-color: #567B95;
+  background-color: #567b95;
   color: white;
   padding: .6rem;
   text-transform: uppercase;
@@ -44,6 +44,7 @@ button {
   border-radius: .2rem;
   border: transparent;
 }
+
 nav {
   margin-right: 1rem;
 }
@@ -53,6 +54,7 @@ nav {
 }
 
 /* h1, banner img section */
+
 h1 {
   font-size: 2rem;
   padding-top: 6rem;
@@ -100,7 +102,7 @@ h1 {
 }
 
 .linkblack {
-  color: black
+  color: black;
 }
 
 .date {
@@ -112,6 +114,7 @@ h1 {
 }
 
 /* content section css */
+
 .content {
   margin-top: 1%;
   margin-bottom: 1rem;   
@@ -164,6 +167,7 @@ article p button {
 }
 
 /* rightside editors picks section */
+
 .ediors-picks-banner-container {
   width: 20%;
   margin-top: 2%;
@@ -286,6 +290,7 @@ article p button {
 }
 
 /* newsletter section css */
+
 .suggested-header {
   margin-left: 2%;
 }
@@ -328,6 +333,7 @@ article p button {
 }
 
 /* most popular part */
+
 .popular li a {
   text-decoration: none;
   color: black;
@@ -344,6 +350,7 @@ article p button {
 }
 
 /* more in space section css */
+
 .space-header {
   margin-left: 2%;
   margin-top: 2%;
@@ -387,6 +394,7 @@ article p button {
 }
 
 /* Editors’ Picks section css */
+
 .editors-header {
   margin-left: 2%;
   margin-top: 2%;
@@ -418,6 +426,7 @@ article p button {
 }
 
 /* Footer section css */
+
 .footer-logo {
   width: 22%;
   margin-left: -2.1%;
@@ -451,6 +460,7 @@ ul li {
 }
 
 /* footer banner css */
+
 .footer-banner {
   display: flex;
   justify-content: flex-start;
