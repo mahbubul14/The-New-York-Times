@@ -18,6 +18,10 @@ header {
   border-bottom: 1px solid rgb(224, 213, 213);
 }
 
+ul li {
+    list-style-type: none;
+  }
+
 nav ul li {
   display: inline-block;
   margin-left: 1.5rem;
@@ -314,7 +318,7 @@ article p button {
   width: 40%;
 }
 
-#latest{
+#latest {
   padding-top: 10%;
   font-size: .9rem;
   font-weight: bold;
@@ -340,7 +344,7 @@ article p button {
   margin-left: 3%;
 }
 
-.popular li{
+.popular li {
   margin-bottom: 2%;
   width: 95%;
   border-top: .01px solid rgb(224, 213, 213);
@@ -440,9 +444,6 @@ article p button {
   border-bottom: 1px solid rgb(224, 213, 213);
 }
 
-ul li {
-  list-style-type: none;
-}
 .table {
   width: 17%;
   font-size: .80rem;
@@ -451,7 +452,8 @@ ul li {
 .table li {
   margin-top: .5rem;
 }
-.t6{
+
+.t6 {
   border-left: 1px solid rgb(224, 213, 213);
   padding-left: 1%;
 }
@@ -462,9 +464,12 @@ ul li {
   display: flex;
   justify-content: flex-start;
   width: 90%;
-  margin-left: 2%;
   font-size: .7rem;
   color: slategray;
-  justify-content: space-between;
   margin-top: 1.6%;
+}
+
+.footer-banner li {
+    justify-content: space-between;
+    margin-left: 1%;
 }
