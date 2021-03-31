@@ -142,6 +142,28 @@ h1{
     color:rgb(88, 83, 83);
     line-height: 0.1;
 }
+/* rightside editors picks section */
+.ediors-picks-banner-section{
+    margin-top: 2%;
+    padding-left: 5%;
+    float: right;
+}
+.ediors-picks-banner{
+    width: 30%;
+    background-color: red;
+}
+.ediors-picks-banner img{
+    width: 100%;
+}
+.ediors-picks-banner p{
+    width: 100%;
+    
+}
+.ediors-picks-banner a{
+    text-decoration: none;
+    font-size: smaller;
+    color: black;
+}
 /* inflation section css */
 
 .inflationimg{
