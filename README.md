@@ -4,7 +4,7 @@
 
 > The project is a clone of the new york times article page.
 
-![screenshot](./image/narticle.PNG)
+![screenshot](./image/New-York_Times_Clone.PNG)
 
 This page(in the project) is actually built with some basic tag with html and css.
 
@@ -39,7 +39,3 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Mentor & Stand up team mates
 - Coding partner
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
