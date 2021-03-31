@@ -219,26 +219,66 @@ h1{
 .bold{
     font-weight: bolder;
 }
-/* newsletter section for css */
-/* .newsletter{
-    grid-row: 1/2;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid silver;
-    background-color: red;
-    margin: 1% 1% 0% 1%;
-    padding: 1em;
-    width: 25%;
+/* newsletter section css */
+.suggested-header{
+    margin-left: 2%;
 }
-.newsletter img{
-    width: 20%;
+.newsletter{
+    width: 22%;
+    border: 1px solid silver;
+    margin-left: .9%;
 }
 .newsletter-text{
-    width: 30%;
-} */
-/* styling the newsletter articles */
+    width: 80%;
+}
+.newsletter a img{
+    width: 40%;
+}
 
+.newsletterflex{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+/* more in space section css */
+.space-header{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.more-space-section1{
+    display: flex;
+    justify-content: flex-start;
+    width: 66%;
+    margin-left: 2%;
+}
+.more-space-section2{
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+    margin-left: 2%;
+}
+.more-space{
+    margin-right: -7%;
+    width: 45%
+}
 
-/* popular section css */
+.more-space a img {
+    width: 70%;
+}
+.more-space a {
+    text-decoration: none;
+}
+.more-space p{
+    width: 72%;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 2%;
+    color: black;
+}
+
 /* .popular{
     margin-left: 1%;
     padding-left: 10%;
