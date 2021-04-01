@@ -44,7 +44,7 @@ button {
   padding: 9.6px;
   text-transform: uppercase;
   font-weight: bold;
-  border-radius: .2rem;
+  border-radius: 3.2px;
   border: transparent;
 }
 
@@ -87,10 +87,12 @@ h1 {
 }
 
 .imgtext {
-  margin-top: .5rem;
+  margin-top: 8px;
   margin-left: 15%;
   margin-right: 30%;
   color: rgb(102, 101, 101);
+  font-size: 14px;
+  font-weight: 548;
 }
 
 .writter {
