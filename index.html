@@ -11,27 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
 </head>
 <body>
-    <header class= "flex">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </li>
-                <li>
-                    <a href=#><i class="fas fa-search"></i></a>
-                </li>
-                <li>
-                    <a class= "noline" href="#">SPACE & COSMOS</a>
-                </li>
-            </ul>
-        </nav>
-            <img class="logo" src="./image/new-york-times-logo-png-transparent.png" alt="image">
-        <nav>
-            <button class= "btn" type="button">subscribe now</button>
-            <button class="btn" type= "button">log in</button>
-        </nav>
+    <header>
+        <nav class="header-section">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-search"></i>
+            <span class="nav-text">SPACE & COSMOS</span>
+            <a href="#"><img src="./image/logo.jpg" alt="nyt-logo"></a>
+            <button class="nav-btn" type="button">LOG IN</button>
+            <button id="sub-btn" class="nav-btn" type="button">SUBSCRIBE NOW</button>
+          </nav>
     </header>
-    <div class=h1section>
+    <main>
+    <div>
         <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
         <social class="social-media">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -51,7 +42,6 @@
         <h4 class= "writter">By <a class="linkblack" href= "#">Dennis Overbye</a></h4>
         <span class="date">March 17, 2014</span>
     </div>
-    <main>
     <article>
         <p id="p1" class="content"><b>SIGN UP FOR SCIENCE TIMES:</b> Get stories that capture the wonders of nature, the cosmos and the human body.<button class="sign-up" type="button">Sign Up</button> </p>
         <p class="content">
@@ -123,45 +113,60 @@
         </p>
         <br><br>
         <!-- inflation section here -->
-        <div class="inflation-container">
-            <h4>The Theory of Inflation</h4>
-            <p class= "inflation-description">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p> 
-            <div class="inflation-img-1">
-            <img src="./image/inflation1.PNG" alt="image" class="inflationimg">
-            <img src="./image/inflation2.PNG" alt="image" class="inflationimg">
-            <img src="./image/inflation4.PNG" alt="image" class="inflationimg">
-            <img src="./image/inflation3.PNG" alt="image" class="inflationimg">
+        <section>
+            <h4 class="inflation-header"> The Theory of Inflation</h4>
+            <p class= "inflation-description">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
+            <div class="inflation-container1">
+                <div class="inflation-box">
+                    <img src="./image/inflation1.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        THE UNIVERSE  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation2.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        NOT ENOUGH TIME  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation3.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        DISTANT COFFEE  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation4.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        COFFEE EVERYWHERE  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
+                </div>
             </div>
-            <p class="inflation-content">
-                THE UNIVERSE  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
-            </p>
-            <p class="inflation-content">
-                NOT ENOUGH TIME  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
-            </p>
-            <p class="inflation-content">
-                DISTANT COFFEE  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
-            </p>
-            <p class="inflation-content">
-                COFFEE EVERYWHERE  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
-            </p>
-            <img src="./image/inflation5.PNG" alt="image" class="inflationimg-part2">
-            <img src="./image/inflation6.PNG" alt="image" class="inflationimg-part2">
-            <img src="./image/inflation7.PNG" alt="image" class="inflationimg-part2">
-            <img src="./image/inflation8.PNG" alt="image" class="inflationimg-part2">
-            <p class="inflation-content">
-                STILL NOT ENOUGH TIME  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
-            </p>
-            <p class="inflation-content">
-                INFLATION  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
-            </p>
-            <p class="inflation-content">
-                FLUCTUATION  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
-            </p>
-            <p class="inflation-content">
-                EXPANSION  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
-            </p>
-        </div>
-        <p class="writter-of-inflation">By LARRY BUCHANAN and JONATHAN CORUM</p>
+            <div class="inflation-container2">
+                <div class="inflation-box">
+                    <img src="./image/inflation5.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        STILL NOT ENOUGH TIME  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation6.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        INFLATION  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation7.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        FLUCTUATION  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
+                    </p>
+                </div>
+                <div class="inflation-box">
+                    <img src="./image/inflation8.PNG" alt="image" class="inflationimg">
+                    <p class="inflation-content">
+                        EXPANSION  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
+                    </p>
+                </div>
+        </section>
         <!-- ending of inflation section -->
         <br><br>
         <p class="content">
@@ -310,24 +315,34 @@
         <h4 class="suggested-header">Suggested newsetter for you</h4>
         <section class="newslettersection flex">
             <div class="newsletter">
-                <a href="#"><img src="./image/newsletter1.PNG" alt="image"></a>
-                <p class="smaller">AS NEEDED</p>
-                <p class="bold">Breaking News</p>
-                <p class="newsletter-text">Alerts when important news breaks around the world</p>
+                <a href="#">
+                    <img src="./image/newsletter1.PNG" alt="image">
+                </a>
+                <a href="#">
+                    <p class="smaller">AS NEEDED</p>
+                    <p class="bold">Breaking News</p>
+                    <p class="newsletter-text">Alerts when important news breaks around the world</p>
+                </a>
                 <a class="latest" href="#">See the latest</a>
             </div>
             <div class="newsletter">
-                <a href="#"><img src="./image/newsletter2.PNG" alt="image"></a>
-                <p class="smaller">WEEKLY</p>
-                <p class="bold">At Home</p>
-                <p class="newsletter-text">Our best suggestion for how to live a full and cultured life during the pandeminc, at home.</p>
+                <a href="#">
+                    <img src="./image/newsletter2.PNG" alt="image">
+                </a>
+                <a href="#">
+                    <p class="smaller">WEEKLY</p>
+                    <p class="bold">At Home</p>
+                    <p class="newsletter-text">Our best suggestion for how to live a full and cultured life during the pandeminc, at home.</p>
+              </a>
                 <a class="latest" href="#">See the latest</a>
             </div>
             <div class="newsletter">
                 <a href="#"><img src="./image/newsletter3.PNG" alt="image"></a>
-                <p class="smaller">DAILY</p>
-                <p class="bold">The Morning</p>
-                <p class="newsletter-text">Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you through what's happening and why it matters.</p>
+                <a href="#">
+                    <p class="smaller">DAILY</p>
+                    <p class="bold">The Morning</p>
+                    <p class="newsletter-text">Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you through what's happening and why it matters.</p>
+                </a>    
                 <a class="latest" href="#">See the latest</a>
             </div>
                 <!-- most popular part -->
