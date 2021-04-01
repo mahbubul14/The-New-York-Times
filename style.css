@@ -130,6 +130,10 @@ h1 {
   max-width: 90rem;
 }
 
+#bold{
+  font-weight: bolder;
+}
+
 #p1 {
   margin-top: 4%;
   font-size: 17.44px;
