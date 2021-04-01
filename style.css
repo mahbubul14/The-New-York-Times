@@ -38,11 +38,10 @@ nav ul li {
 }
 
 button {
-  margin-right: .3rem;
-  font-size: .71rem;
+  font-size: 85%;
   background-color: #567b95;
   color: white;
-  padding: .6rem;
+  padding: 9.6px;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: .2rem;
