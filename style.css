@@ -66,12 +66,29 @@ h1 {
   border-bottom: 1px solid rgb(224, 213, 213);
 }
 
-.social-media {
+.social-media img {
   width: 14px;
   display: flex;
+}
+
+.social-media {
+  width: 14px;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
   margin-top: 30px;
+  margin-bottom: 20px;
   margin-left: 30%;
   gap: 20px;
+}
+
+.social-media a i {
+  color: black;
+  text-shadow: 0 0 10px darkgray;
+}
+
+.social-media-bottom a i {
+  color: black;
+  text-shadow: 0 0 10px darkgray;
 }
 
 .h1img {
