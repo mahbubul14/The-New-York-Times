@@ -126,7 +126,7 @@ h1 {
   max-width: 90rem;
 }
 
-#bold {
+.bolder {
   font-weight: bolder;
 }
 
@@ -199,7 +199,7 @@ article p button {
 .more-space p {
   width: 72%;
   text-decoration: none;
-  font-size: large;
+  font-size: 1rem;
   margin-bottom: 2%;
   color: black;
 }
@@ -207,7 +207,7 @@ article p button {
 .editors-picks p {
   width: 82%;
   text-decoration: none;
-  font-size: large;
+  font-size: 15px;
   margin-bottom: 2%;
   color: black;
 }
@@ -330,7 +330,7 @@ article p button {
   width: 40%;
 }
 
-#latest {
+.latest {
   padding-top: 10%;
   font-size: 14.4px;
   font-weight: bold;
