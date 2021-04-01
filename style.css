@@ -202,6 +202,20 @@ article p button {
   font-size: large;
   margin-bottom: 2%;
   color: black;
+}.editors-picks p {
+  width: 82%;
+  text-decoration: none;
+  font-size: large;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.editors-picks p {
+  width: 82%;
+  text-decoration: none;
+  font-size: large;
+  margin-bottom: 2%;
+  color: black;
 }
 
 .ediors-picks-banner a p {
@@ -343,6 +357,11 @@ article p button {
   text-decoration: none;
 }
 
+.editors-picks a {
+  text-decoration: none;
+  margin-top: 8%;
+}
+  
 .popular li a {
   text-decoration: none;
   color: black;
@@ -407,19 +426,6 @@ article p button {
 
 .editors-picks a img {
   width: 97%
-}
-
-.editors-picks a {
-  text-decoration: none;
-  margin-top: 8%;
-}
-
-.editors-picks p {
-  width: 82%;
-  text-decoration: none;
-  font-size: large;
-  margin-bottom: 2%;
-  color: black;
 }
 
 /* Footer section css */
