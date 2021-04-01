@@ -41,15 +41,11 @@ button {
   font-size: 85%;
   background-color: #567b95;
   padding: 9.6px;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 3.2px;
   border: transparent;
-}
-
-button a{
-  color: white;
-  text-decoration: none;
 }
 
 nav {
@@ -166,10 +162,9 @@ article p button {
 
 .caption-text {
   font-size: 14.4px;
-  row-gap: 3.2px;
   font-weight: 500;
   color: rgb(88, 83, 83);
-  line-height: 0.1;
+  line-height: 150%;
 }
 
 /* rightside editors picks section */
