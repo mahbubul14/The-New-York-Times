@@ -99,14 +99,14 @@ h1 {
   padding-right: 27%;
   padding-left: 27%;
   margin-top: 4%;
-  margin-bottom: .144px;
   color: black;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .linkblack {
   color: black;
+  text-decoration-color: silver;
 }
 
 .date {
@@ -277,7 +277,7 @@ article p button {
 }
 
 .small {
-  font-size: .8rem;
+  font-size: 12.8px;
   color: rgb(102, 101, 101);
   line-height: 0;
 }
@@ -320,7 +320,7 @@ article p button {
 .newsletter {
   width: 24%;
   border: 1px solid silver;
-  margin-left: .9%;
+  margin-left: 10px;
 }
 
 .smaller {
@@ -356,7 +356,7 @@ article p button {
   text-decoration: none;
   margin-top: 8%;
 }
-  
+
 .popular li a {
   text-decoration: none;
   color: black;
@@ -369,7 +369,7 @@ article p button {
 .popular li {
   margin-bottom: 2%;
   width: 95%;
-  border-top: .01px solid rgb(224, 213, 213);
+  border-top: 1px solid rgb(224, 213, 213);
 }
 
 /* more in space section css */
@@ -420,7 +420,7 @@ article p button {
 }
 
 .editors-picks a img {
-  width: 97%
+  width: 97%;
 }
 
 /* Footer section css */
