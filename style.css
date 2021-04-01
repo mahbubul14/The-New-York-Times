@@ -99,7 +99,7 @@ h1 {
   padding-right: 27%;
   padding-left: 27%;
   margin-top: 4%;
-  margin-bottom: .9%;
+  margin-bottom: .144px;
   color: black;
   font-weight: 700;
   font-size: 17px;
@@ -114,7 +114,7 @@ h1 {
   padding-left: 27%;
   padding-bottom: 35%;
   font-family: helvetica, arial, sans-serif;
-  font-size: .8rem;
+  font-size: 12.8px;
 }
 
 /* content section css */
@@ -262,7 +262,7 @@ article p button {
   margin-left: 25px;
   font-size: 14px;
   font-family: helvetica, arial, sans-serif;
-  color:  rgb(88, 83, 83);
+  color: rgb(88, 83, 83);
 }
 
 .writter-of-inflation {
@@ -397,7 +397,7 @@ article p button {
 
 .more-space {
   margin-right: -11%;
-  width: 45%
+  width: 45%;
 }
 
 .more-space a img {
@@ -447,7 +447,7 @@ article p button {
 }
 
 .table li {
-  margin-top: .5rem;
+  margin-top: 8px;
 }
 
 .t6 {
@@ -461,7 +461,7 @@ article p button {
   display: flex;
   justify-content: flex-start;
   width: 90%;
-  font-size: .7rem;
+  font-size: 11px;
   color: slategray;
   margin-top: 1.6%;
 }
