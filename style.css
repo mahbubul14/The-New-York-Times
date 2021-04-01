@@ -445,6 +445,11 @@ article p button {
   font-size: 12.8px;
 }
 
+.table a {
+  text-decoration: none;
+  color: black;
+}
+
 .table li {
   margin-top: 8px;
 }
@@ -459,13 +464,15 @@ article p button {
 .footer-banner {
   display: flex;
   justify-content: flex-start;
+  justify-content: space-between;
+  margin-left: 2%;
   width: 90%;
   font-size: 11px;
   color: slategray;
   margin-top: 1.6%;
 }
 
-.footer-banner li {
-  justify-content: space-between;
-  margin-left: 1%;
+.footer-banner a {
+  text-decoration: none;
+  color: black;
 }
