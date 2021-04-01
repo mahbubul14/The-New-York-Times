@@ -40,7 +40,6 @@ nav ul li {
 button {
   font-size: 85%;
   background-color: #567b95;
-  color: white;
   padding: 9.6px;
   text-transform: uppercase;
   font-weight: bold;
@@ -48,12 +47,13 @@ button {
   border: transparent;
 }
 
-nav {
-  margin-right: 1rem;
+button a{
+  color: white;
+  text-decoration: none;
 }
 
-.btn2 {
-  margin-right: 10rem;
+nav {
+  margin-right: 1rem;
 }
 
 /* h1, banner img section */
@@ -130,7 +130,7 @@ h1 {
   max-width: 90rem;
 }
 
-#bold{
+#bold {
   font-weight: bolder;
 }
 
