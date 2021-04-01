@@ -202,12 +202,6 @@ article p button {
   font-size: large;
   margin-bottom: 2%;
   color: black;
-}.editors-picks p {
-  width: 82%;
-  text-decoration: none;
-  font-size: large;
-  margin-bottom: 2%;
-  color: black;
 }
 
 .editors-picks p {
@@ -267,7 +261,7 @@ article p button {
   margin-left: 25px;
   font-size: 14px;
   font-family: helvetica, arial, sans-serif;
-  color: rgb(88, 83, 83);
+  color:  rgb(88, 83, 83);
 }
 
 .writter-of-inflation {
