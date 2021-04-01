@@ -49,6 +49,7 @@ nav span {
   font-weight: bold;
   font-size: 12.8px;
 }
+
 nav img {
   width: 21%;
   height: auto;
@@ -228,6 +229,7 @@ article p button {
   font-size: 15.52px;
   margin-bottom: 1%;
   margin-top: 2%;
+  margin-left: 4%;
 }
 
 .more-space p {
@@ -244,6 +246,11 @@ article p button {
   font-size: 15px;
   margin-bottom: 2%;
   color: black;
+}
+
+.inflation-box p {
+  font-size: 12px;
+  width: 90%;
 }
 
 .ediors-picks-banner a p {
@@ -288,15 +295,6 @@ article p button {
   margin-left: 10%;
 }
 
-/* .inflation-box {
-  margin-left: 50%;
-  max-width: 80%;
-} */
-
-.inflation-box p{
-  font-size: 12px;
-  width: 90%;
-}
 .inflation-box img {
   width: 200px;
   margin-left: 10%;
@@ -362,10 +360,6 @@ article p button {
   width: 32%;
   margin-left: 4%;
   margin-top: 4%;
-}
-
-.newsletter p {
-  margin-left: 4%;
 }
 
 .newsletter a {
@@ -515,4 +509,3 @@ article p button {
   margin-top: 1.6%;
   margin-bottom: 2%;
 }
-
