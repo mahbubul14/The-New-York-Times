@@ -124,15 +124,15 @@ h1 {
   margin-bottom: 1rem;
   padding-right: 27%;
   padding-left: 27%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 1.8rem;
+  line-height: 29px;
   max-width: 90rem;
 }
 
 #p1 {
   margin-top: 4%;
-  font-size: 1.09rem;
+  font-size: 17.44px;
 }
 
 article p button {
@@ -161,8 +161,8 @@ article p button {
 }
 
 .caption-text {
-  font-size: .9rem;
-  row-gap: .2rem;
+  font-size: 14.4px;
+  row-gap: 3.2px;
   font-weight: 500;
   color: rgb(88, 83, 83);
   line-height: 0.1;
@@ -192,7 +192,7 @@ article p button {
 .newsletter p {
   width: 100%;
   line-height: 130%;
-  font-size: .97rem;
+  font-size: 15.52px;
   margin-bottom: 1%;
   margin-top: 2%;
 }
@@ -215,7 +215,7 @@ article p button {
 
 .ediors-picks-banner a p {
   width: 70%;
-  font-size: .85rem;
+  font-size: 13.6px;
   margin-left: 55%;
   margin-top: 5%;
 }
@@ -333,7 +333,7 @@ article p button {
 
 #latest {
   padding-top: 10%;
-  font-size: .9rem;
+  font-size: 14.4px;
   font-weight: bold;
   color: dodgerblue;
   text-decoration: none;
@@ -443,7 +443,7 @@ article p button {
 
 .table {
   width: 17%;
-  font-size: .80rem;
+  font-size: 12.8px;
 }
 
 .table li {
