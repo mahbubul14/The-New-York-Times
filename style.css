@@ -258,6 +258,8 @@ article p button {
   color: black;
 }
 
+/* inflation section css */
+
 .inflation-header {
   margin-left: 10%;
 }
@@ -275,18 +277,21 @@ article p button {
   grid-template-columns: repeat(4, 1fr);
   width: 80%;
   color: darkolivegreen;
+  margin-left: 10%;
 }
 
 .inflation-container2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 80%;
+  max-width: 80%;
+  color: darkolivegreen;
+  margin-left: 10%;
 }
 
-.inflation-box {
+/* .inflation-box {
   margin-left: 50%;
-  width: 80%;
-}
+  max-width: 80%;
+} */
 
 .inflation-box p{
   font-size: 12px;
@@ -296,57 +301,6 @@ article p button {
   width: 200px;
   margin-left: 10%;
 }
-
-
-/* inflation section css */
-
-/* .inflationimg {
-  display: inline-block;
-  margin-top: 2em;
-  max-width: 250px;
-  max-height: 170px;
-  margin-left: 20px;
-  align-items: center;
-}
-
-.inflation-description {
-  color: rgb(102, 101, 101);
-}
-
-.inflationimg-part2 {
-  display: inline-block;
-  margin-top: 2em;
-  max-width: 250px;
-  max-height: 170px;
-  margin-left: 20px;
-}
-
-.inflation-container {
-  margin-left: 7%;
-  margin-right: 7%;
-  max-width: 1200px;
-}
-
-.inflation-content {
-  display: inline-block;
-  max-width: 15rem;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 0;
-  margin-left: 25px;
-  font-size: 14px;
-  font-family: helvetica, arial, sans-serif;
-  color: rgb(88, 83, 83);
-}
-
-.writter-of-inflation {
-  margin-top: 6%;
-  margin-left: 9%;
-  margin-bottom: 2%;
-  font-weight: 80;
-} */
-
-/* ending css of inflation section */
 
 .telescope-img {
   max-width: 100%;
@@ -359,6 +313,7 @@ article p button {
 }
 
 /* article end */
+
 .comments-btn {
   padding-right: 20%;
   padding-left: 20%;
