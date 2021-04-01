@@ -196,6 +196,14 @@ article p button {
   margin-top: 2%;
 }
 
+.more-space p {
+  width: 72%;
+  text-decoration: none;
+  font-size: large;
+  margin-bottom: 2%;
+  color: black;
+}
+
 .ediors-picks-banner a p {
   width: 70%;
   font-size: .85rem;
@@ -318,7 +326,7 @@ article p button {
   padding-top: 10%;
   font-size: .9rem;
   font-weight: bold;
-  color:dodgerblue;
+  color: dodgerblue;
   text-decoration: none;
 }
 
@@ -355,7 +363,7 @@ article p button {
 .space-header {
   margin-left: 2%;
   margin-top: 2%;
-  margin-bottom: 2%;  
+  margin-bottom: 2%;
 }
 
 .more-space-section1 {
@@ -382,14 +390,6 @@ article p button {
   width: 71%;
 }
 
-.more-space p {
-  width: 72%;
-  text-decoration: none;
-  font-size: large;
-  margin-bottom: 2%;
-  color: black;
-}
-
 /* Editors’ Picks section css */
 
 .editors-header {
@@ -404,7 +404,7 @@ article p button {
   width: 74%;
   margin-left: 2%;
 }
- 
+
 .editors-picks a img {
   width: 97%
 }
