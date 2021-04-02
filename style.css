@@ -175,7 +175,9 @@ article p button {
   background-color: white;
   margin-left: 30%;
   color: black;
+  font-weight: bolder;
   border: 1px solid black;
+  padding: 1% 1% 1% 1%
 }
 
 #break {
@@ -221,15 +223,6 @@ article p button {
   width: 50%;
   float: left;
   margin-bottom: 2%;
-}
-
-.newsletter p {
-  width: 100%;
-  line-height: 130%;
-  font-size: 15.52px;
-  margin-bottom: 1%;
-  margin-top: 2%;
-  margin-left: 4%;
 }
 
 .more-space p {
@@ -342,14 +335,30 @@ article p button {
 
 /* newsletter section css */
 
-.suggested-header {
+.newslettersection {
+  width: 70%;
+  justify-content: flex-start;
+  margin-top: 1%;
   margin-left: 2%;
 }
 
+.suggested-header {
+  margin-left: 4%;
+}
+
 .newsletter {
-  width: 40%;
+  max-width: 30%;
   border: 1px solid silver;
-  margin-left: 10px;
+  margin-left: 2%;
+}
+
+.newsletter p {
+  width: 95%;
+  line-height: 130%;
+  font-size: 15.52px;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 .smaller {
@@ -376,12 +385,6 @@ article p button {
   margin-left: 4%;
 }
 
-.newslettersection {
-  justify-content: flex-start;
-  margin-top: 2%;
-  margin-left: 1%;
-}
-
 /* most popular part */
 
 .more-space a {
@@ -403,17 +406,19 @@ article p button {
   color: black;
 }
 
+.popular-part {
+  float: right;
+  width: 25%;
+  margin-right: 2%;
+}
+
 .popular li a {
   text-decoration: none;
   color: black;
 }
 
-.popular-part {
-  margin-left: 3%;
-}
-
 .popular li {
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   width: 90%;
   border-top: 1px solid rgb(224, 213, 213);
 }
@@ -421,7 +426,7 @@ article p button {
 /* more in space section css */
 
 .space-header {
-  margin-left: 2%;
+  margin-left: 3%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -429,14 +434,14 @@ article p button {
 .more-space-section1 {
   justify-content: flex-start;
   width: 73%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .more-space-section2 {
   margin-top: 4%;
   justify-content: flex-start;
   width: 75%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .more-space {
@@ -451,7 +456,7 @@ article p button {
 /* Editors’ Picks section css */
 
 .editors-header {
-  margin-left: 2%;
+  margin-left: 3%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -459,7 +464,7 @@ article p button {
 .editors-picks-section {
   justify-content: flex-start;
   width: 74%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .editors-picks a img {
