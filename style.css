@@ -177,7 +177,7 @@ article p button {
   color: black;
   font-weight: bolder;
   border: 1px solid black;
-  padding: 1% 1% 1% 1%
+  padding: 1% 1% 1% 1%;
 }
 
 #break {
@@ -244,6 +244,15 @@ article p button {
 .inflation-box p {
   font-size: 12px;
   width: 90%;
+}
+
+.newsletter p {
+  width: 95%;
+  line-height: 130%;
+  font-size: 15.52px;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 .ediors-picks-banner a p {
@@ -350,15 +359,6 @@ article p button {
   max-width: 30%;
   border: 1px solid silver;
   margin-left: 2%;
-}
-
-.newsletter p {
-  width: 95%;
-  line-height: 130%;
-  font-size: 15.52px;
-  margin-bottom: 1%;
-  margin-top: 2%;
-  margin-left: 4%;
 }
 
 .smaller {
